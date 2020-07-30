@@ -130,18 +130,6 @@
                                             <?php echo "$" . $_POST['unit'] ?>
                                         </h3>
                                         <h4>
-                                          <?php // SDK de Mercado Pago
-                                            require __DIR__ .  '/vendor/autoload.php';
-                                            // Agrega credenciales
-                                            MercadoPago\SDK::setAccessToken('TEST-8299436681826487-073017-5e6ace7a2626a84d152b9457f3fd32a8-293829152');
-                                            // Crea un ítem en la preferencia
-                                            $item = new MercadoPago\Item();
-                                            $item->title = 'Mi producto';
-                                            $item->quantity = 1;
-                                            $item->unit_price = 75.56;
-                                            $preference->items = array($item);
-                                            $preference->save();
-                                            ?>
                                         </h4>
                                         <form action="/procesar-pago" method="POST">
                                           <script
@@ -151,6 +139,7 @@
                                         </form>
                                     </div>
                                     <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
+                                    <form action="/procesar-pago" method="POST">
                                 </div>
                             </div>
                         </div>
