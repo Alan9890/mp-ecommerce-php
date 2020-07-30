@@ -136,7 +136,7 @@
                                          data-preference-id="<?php echo $preference->id; ?>">
                                         </script>
                                     </form>
-                                    <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
+                                    <!--<button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>-- >
                                 </div>
                             </div>
                         </div>
