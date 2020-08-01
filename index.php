@@ -9,7 +9,7 @@
 
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZPOSTbYMGWSFlBw8HfCJo="
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGETbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./assets/category-landing.css" media="screen, print">
@@ -257,7 +257,7 @@
                                                 $15.000
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="POST">
+                                        <form action="/detail.php" method="GET">
                                             <input type="hidden" name="img" value="./assets/samsung-galaxy-s9-xxl.jpg">
                                             <input type="hidden" name="title" value="Samsung Galaxy S9">
                                             <input type="hidden" name="price" value="15000">
@@ -313,12 +313,12 @@
                                                 $10.000
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="POST">
+                                        <form action="/detail.php" method="GET">
                                             <input type="hidden" name="img" value="./assets/l6g6.jpg">
                                             <input type="hidden" name="title" value="LG G6">
                                             <input type="hidden" name="price" value="10000">
                                             <input type="hidden" name="unit" value="1">
-                                            <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
+                                            <button type="submit" class="mercadopago-button" formmethod="POST">Comprar</button>
                                         </form>
                                     </div>
                                 </div>
@@ -371,12 +371,12 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="POST">
+                                        <form action="/detail.php" method="GET">
                                             <input type="hidden" name="img" value="./assets/u_10168742.jpg">
                                             <input type="hidden" name="title" value="iPhone 8">
                                             <input type="hidden" name="price" value="16000">
                                             <input type="hidden" name="unit" value="1">
-                                            <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
+                                            <button type="submit" class="mercadopago-button" formmethod="POST">Comprar</button>
                                         </form>
                                     </div>
                                 </div>
@@ -428,12 +428,12 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="POST">
+                                        <form action="/detail.php" method="GET">
                                             <input type="hidden" name="img" value="./assets/motorola-moto-g5-plus-1.jpg">
                                             <input type="hidden" name="title" value="Motorola G5">
                                             <input type="hidden" name="price" value="9000">
                                             <input type="hidden" name="unit" value="1">
-                                            <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
+                                            <button type="submit" class="mercadopago-button" formmethod="POST">Comprar</button>
                                         </form>
                                     </div>
                                 </div>
@@ -478,12 +478,12 @@
                                                 $8.000
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="POST">
+                                        <form action="/detail.php" method="GET">
                                             <input type="hidden" name="img" value="./assets/motorola-moto-g4-3.jpg">
                                             <input type="hidden" name="title" value="Moto G4">
                                             <input type="hidden" name="price" value="8000">
                                             <input type="hidden" name="unit" value="1">
-                                            <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
+                                            <button type="submit" class="mercadopago-button" formmethod="POST">Comprar</button>
                                         </form>
                                     </div>
                                 </div>
@@ -529,13 +529,14 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="POST">
+                                        <form action="/detail.php" method="GET">
                                             <input type="hidden" name="img" value="./assets/003.jpg">
                                             <input type="hidden" name="title" value="Sony Xperia XZ2">
                                             <input type="hidden" name="price" value="10000">
                                             <input type="hidden" name="unit" value="1">
-                                            <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
+                                            <button type="submit" class="mercadopago-button" formmethod="POST">Comprar</button>
                                         </form>
+
                                     </div>
                                 </div>
 
