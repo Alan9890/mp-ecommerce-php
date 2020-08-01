@@ -3,7 +3,7 @@
 require __DIR__ .  '/vendor/autoload.php';
 
 // Agrega credenciales
-MercadoPago\SDK::setAccessToken('PP_USR-8299436681826487-073017-9384acc9459b0c1404d77d6360b7342e-293829152');
+MercadoPago\SDK::setAccessToken('TEST-8299436681826487-073017-5e6ace7a2626a84d152b9457f3fd32a8-293829152');
 
 // Crea un objeto de preferencia
 $preference = new MercadoPago\Preference();
@@ -21,8 +21,12 @@ $item->unit_price = 10;
 $preference->items = array($item);
 
 $preference->save();
-?>
 
+//curl -X POST -H "Content-Type: application/json" "https://api.mercadopago.com/users/test_user?access_token=TEST-8299436681826487-073017-5e6ace7a2626a84d152b9457f3fd32a8-293829152" -d '{"site_id":"MLM"}'
+//{"id":619244453,"nickname":"TESTSYPFR41Q","password":"qatest7090","site_status":"active","email":"test_user_39219615@testuser.com"}
+// {"id":619244453,"nickname":"TESTSYPFR41Q","password":"qatest7090","site_status":"active","email":"test_user_39219615@testuser.com"}
+
+?>
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
